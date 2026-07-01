@@ -49,7 +49,8 @@ module.exports = async function handler(req, res) {
   } catch (err) {
     console.error('Chat function error:', err.message);
     return res.status(500).json({
-      error: 'The assistant is temporarily unavailable. Please try again shortly or call the clinic front desk.'
+      error: 'The assistant is temporarily unavailable. Please try again shortly or call the clinic front desk.',
+      debug: err.message
     });
   }
 };
