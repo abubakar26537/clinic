@@ -1,0 +1,9 @@
+{
+  "name": "willow-bloom-clinic",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Willow & Bloom Family Clinic — static website with Gemini-powered chatbot via Vercel Serverless Functions.",
+  "engines": {
+    "node": ">=18.x"
+  }
+}
